@@ -1,16 +1,30 @@
 #container
 {
-	margin: 0 30px;
-	background: #fff;
+	margin: 0 ;
+	  background-attachment:fixed;
+background-position:center;
+	background-image:url("bleu.jpg") ; 
+;
+}
+
+body{
+    background: black;
+    
 }
 
 #header
 {
-	background: #ccc;
+background-image:url("motif.png") ; 
+    background-attachment:fixed;
+background-position:center;
 	padding: 20px;
+    background-color:  #E1E6FA;
+    
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 10;
+    text-align:center;
+}
 
 #navigation
 {
@@ -58,15 +72,20 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-color: #ABC8E2;
 }
 
 #edito h2
 {
-	color: #000;
+	color:#183152 ;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
 
+
+h2{
+   color:#183152 ; 
+}
 #news
 {	
 	float: left;
@@ -83,13 +102,20 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-color: #ABC8E2;
+
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background:  #E1E6FA
+	
+;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+     background-image:url("motif.png") ;    
+
 }
+
